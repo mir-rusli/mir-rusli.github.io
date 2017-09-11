@@ -48,6 +48,19 @@ div.rusla:hover {
     background: url(../img/ruslah.png) no-repeat;
 }
 
+@media only screen and (max-width: 1300px) {
+    div.rusla, div.say {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 450px) {
+    div.rusla, div.say {
+        display: none;
+    }
+}
+
+
 div.say {
     position: fixed;
     bottom: 200px;
